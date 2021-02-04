@@ -82,7 +82,7 @@ right: 225px;
  #soul {
      position: absolute;
      right: 0;
-     bottom: 10px;
+     bottom: 0;
      position: fixed;
  }
 
@@ -96,14 +96,14 @@ right: 225px;
 
  /* 6. */
  #mind {
-     position: absolute;
+     /* position: absolute; */
      right: 0;
-     bottom: 425px;
      position: fixed;
  }
+
 /* 7.*/
  #time {
-     position: absolute;
+     /* position: absolute; */
      top: 0;
      right: 0;
      position: fixed;
@@ -116,9 +116,12 @@ right: 225px;
  }
 
  /* 9. */
- div {
-     position: relative;
+ h1 {
+     z-index: 1;
  }
+ /* div {
+     position: relative;
+ } */
 
  /* Bonuses */
  
@@ -127,7 +130,7 @@ right: 225px;
     position: absolute;
     right: 0;
     bottom: 150px;
-    z-index: 1;
+    z-index: 3;
 }
 
 #soul {
@@ -137,6 +140,9 @@ right: 225px;
     z-index: 1;
 }
 
+#time {
+    z-index: 2;
+}
 h2 {
     position: sticky;
     top: 65px;
